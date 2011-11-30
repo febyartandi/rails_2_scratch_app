@@ -11,7 +11,7 @@
  - script to feeds table countries
  
  
-======Change configuration
+======SETTING AND RUN THE APPLICATION
 - change configuration for database myql in config/database.yml with yours
 
 - change google account for sending email in config/application.yml
