@@ -1,0 +1,12 @@
+Hi <%= @user.login %> 
+
+Have you request to reset your account password in C-aio.com ?
+
+If yes, please <%= link_to "Click here", @url %>  to continue:
+
+If you have not request to reset your password, please ignore this email.
+
+Thank you,
+
+<%= AppConfig.application_name %>
+

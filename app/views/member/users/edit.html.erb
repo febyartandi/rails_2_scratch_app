@@ -1,0 +1,24 @@
+<div style="float:left; width: 400px;">
+  <h1> Edit Password </h2>
+  <%= flash_messages %>
+  <% form_for :user, :url => { :controller => "member/account", :action => "update_password"} do |f|%>
+    <%= render :partial => "password_field", :locals => { :f => f } %>
+    <p>
+      <%= f.submit "Change Password" %>
+    </p>
+  <% end %>
+
+</div>
+
+<div style="float:left; width: 700px;padding: 0 0 0 20px;border-left: 1px dotted;">
+  <h1> Edit Profile </h2>
+  
+  <% form_for :user, :url => { :controller => "member/account", :action => "update"} do |f|%>
+    <%= render :partial => "profiles/form", :locals => { :f => f } %>
+    <p>
+      <%= f.submit "Save Changes" %>
+    </p>
+  <% end %>
+</div>
+
+<div class="clear"></div>

@@ -1,0 +1,21 @@
+<p><%= label_tag 'First name' %><br/>
+<%= text_field :profile, :first_name %></p>
+
+<p><%= label_tag 'Last name' %><br/>
+<%= text_field :profile, :last_name %></p>
+
+<p><%= label_tag 'Birthdate' %><br/>
+<%= date_select :profile, :birthdate %></p>
+
+<p><%= label_tag 'Address' %><br/>
+<%= text_area :profile, :address, { :size => "50x7" } %></p>
+
+<p><%= label_tag 'City' %><br/>
+<%= text_field :profile, :city%></p>
+
+<p><%= label_tag 'State Prov' %><br/>
+<%= text_field :profile, :state_prov %></p>
+
+<p><%= label_tag 'Country' %><br/>
+<%= collection_select :profile, :country_id, Country.all, :id, :name %></p>
+

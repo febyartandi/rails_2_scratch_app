@@ -1,0 +1,18 @@
+=====RAILS USER SYSTEM APPLICATION
+ this app include:
+
+ - signup
+ - login
+ - activation ( via email )
+ - forgot password ( send to email )
+ - edit profile
+ - create member area
+ - simple layout for front end and member ( include basic css )
+ - script to feeds table countries
+ 
+ 
+ Create by feby artandi 
+ 
+ febyartandi.wordpress.com
+ mailme : febyartandi@gmail.com
+ 

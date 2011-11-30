@@ -1,0 +1,13 @@
+#header{
+  margin: 10px 0 40px 0;
+  border-bottom: 1px solid;
+}
+
+#footer{
+  margin: 40px 0 0 0;
+  border-top: 1px solid;
+}
+
+p{
+  margin-top: 8px !important; 
+}

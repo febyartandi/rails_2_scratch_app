@@ -1,0 +1,12 @@
+body, div, table, tr, th, td, ul, li, ol, p, form {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  padding: 0 15px 0 15px;
+}
+
+.clear{
+  clear: both;
+}
