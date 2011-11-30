@@ -1,5 +1,5 @@
 =====RAILS USER SYSTEM APPLICATION
- this app include:
+ this app includes:
 
  - signup
  - login
@@ -11,8 +11,15 @@
  - script to feeds table countries
  
  
- Create by feby artandi 
- 
- febyartandi.wordpress.com
- mailme : febyartandi@gmail.com
+======Change configuration
+- change configuration for database myql in config/database.yml with yours
+
+- change google account for sending email in config/application.yml
+
+  smtp_user_name: yourgmailaccount
+  smtp_password: yourgmailpassword
+
+- rake db:create && rake db:migrate
+- rake migration:populate
+- ruby script/server 
  
